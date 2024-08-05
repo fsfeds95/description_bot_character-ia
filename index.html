@@ -1,27 +1,271 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-VE">
 
 <head>
- <title>Formulario a Archivo TXT</title>
+ <meta charset="UTF-8">
+ <title>xXx</title>
+ <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
- <h1>Formulario a Archivo TXT</h1>
- <form id="myForm">
-  <label for="name">Nombre:</label>
-  <input type="text" id="name" name="name">
-  <br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email">
-  <br>
-  <label for="message">Mensaje:</label>
-  <textarea id="message" name="message"></textarea>
-  <br>
-  <button type="submit">Enviar</button>
- </form>
- <script src="script.js">
-  script.js
- </script>
+ <div class="container">
+  <form id="contact" action="" method="post">
+   <h3>Describe a tu personaje o bot</h3>
+   <h4>
+    <b><span style="color:red;">*</span> EN INGLES</b>
+   </h4>
+
+   <fieldset>
+    <input type="text" id="name" placeholder="Name">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="last_name" placeholder="Last name">
+   </fieldset>
+
+   <fieldset>
+    <input type="number" id="age" placeholder="Age">
+   </fieldset>
+
+   <fieldset>
+    <input placeholder="Fecha de Cumpleaños" type="date" onchange="this.className=(this.value!=''?'has-value':'')">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="gender" placeholder="Gender">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="sexuality" placeholder="Sexuality">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="species" placeholder="Species">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="nationality" placeholder="Nationality">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="ethnicity" placeholder="Ethnicity">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="appearance" placeholder="Appearance">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="height" placeholder="Height">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="weight" placeholder="Weight">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="eyes" placeholder="Eyes">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="hair" placeholder="Hair">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="body" placeholder="Body">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="ears" placeholder="Ears">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="face" placeholder="Face">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="skin" placeholder="Skin">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="personality" placeholder="Personality">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="moral_alignment" placeholder="Moral Alignment">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="archtype" placeholder="Archtype">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="tempermant" placeholder="Tempermant">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="likes" placeholder="Likes">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="dislikes" placeholder="Dislikes">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="hobbies" placeholder="Hobbies">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="fears" placeholder="Fears">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="flaws" placeholder="Flaws">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="strengths" placeholder="Strengths">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="weaknesses" placeholder="Weaknesses">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="values" placeholder="Values">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="disabilities" placeholder="Disabilities">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="mental_disorders" placeholder="Mental Disorders">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="illnesses" placeholder="Illnesses">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="allergies" placeholder="Allergies">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="medication" placeholder="Medication">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="blood_type" placeholder="Blood Type">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="mother" placeholder="Mother">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="father" placeholder="Father">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="siblings" placeholder="Siblings">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="uncles" placeholder="Uncles">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="aunts" placeholder="Aunts">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="grandmothers" placeholder="Grandmothers">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="grandfathers" placeholder="Grandfathers">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="cousins" placeholder="Cousins">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="nephews" placeholder="Nephews">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="nieces" placeholder="Nieces">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="love_interest" placeholder="Love Interest">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="friends" placeholder="Friends">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="enemies" placeholder="Enemies">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="pets" placeholder="Pets">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="residence" placeholder="Residence">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="place_of_birth" placeholder="Place of Birth">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="career" placeholder="Career">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="car" placeholder="Car">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="house" placeholder="House">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="religion" placeholder="Religion">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="social_class" placeholder="Social Class">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="education" placeholder="Education">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="languages" placeholder="Languages">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="iq" placeholder="IQ">
+   </fieldset>
+
+   <fieldset>
+    <input type="text" id="daily_routine" placeholder="Daily Routine">
+   </fieldset>
+
+   <fieldset>
+    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+   </fieldset>
+  </form>
+ </div>
+
 </body>
 
 </html>
